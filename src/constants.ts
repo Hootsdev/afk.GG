@@ -30,11 +30,8 @@ const allRes = [
 ];
 
 enum GameMode {
-    // CR = "Cursed Realm",
     CR = "CR",
-    // TS = "Treasure Scramble",
     TS = "TS",
-    // NC = "Nightmare Corridor",
     NC = "NC",
     all = "all",
 }
@@ -95,3 +92,5 @@ const rSources = [
         display: false,
     },
 ];
+
+module.exports = { verb, iconSize, gms }

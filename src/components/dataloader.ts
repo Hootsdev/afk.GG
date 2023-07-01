@@ -1,17 +1,4 @@
-// Data types
-interface RankReward {
-    mode: string;
-    rank: string;
-    rewards: BaseResQty[];
-}
-class BaseResource {
-    type: `${bres}`;
-    label: string;
-    img: string;
-}
-class BaseResQty extends BaseResource {
-    amount: number;
-}
+
 function modeRewards() {
     const modes = [GameMode.CR, GameMode.TS, GameMode.NC];
     return modes.map((x) => {

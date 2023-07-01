@@ -1,17 +1,14 @@
 {
     "compilerOptions": {
+        "module": "CommonJS",
         "esModuleInterop": true,
-        "moduleResolution": "node",
+        "moduleResolution": "Node",
         // "noImplicitAny": true,
         "removeComments": true,
-        "sourceMap": true,
+        "inlineSourceMap": true,
         "preserveConstEnums": true,
         "rootDir": "src",
-        "outFile": "docs/javascripts/main.js",
-        // "allowJs": true,
-        // "noEmit": true,
-        // "allow
-        // importingTsExtensions": true,
+        "outDir": "docs/javascripts",
         "target": "ES6"
     },
     "include": [

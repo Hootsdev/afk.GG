@@ -21,5 +21,8 @@
     "@types/node": "^20.3.1",
     "concurrently": "^8.2.0",
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "glightbox": "^3.2.0"
   }
 }
